@@ -10,6 +10,8 @@ body {
 
 .container {
     background-color: #fff;
+    height: 250px;
+    border-radius: 10px;
 }
 
 .text-red {
@@ -30,5 +32,9 @@ body {
     background-color: #B91450;
     border: 1px solid #B91450;
     color: #fff;
+}
+
+input#name,#kilometers,#age {
+    border: 1px solid #B91450;
 }
 
