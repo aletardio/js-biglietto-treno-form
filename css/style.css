@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #B91450;
+}
+
+.container {
+    background-color: #fff;
+}
+
+.text-red {
+    color: #B91450;
+    text-align: center;
+}
+
+.btn-generate {
+    font-weight: 800;
+    background-color: #b9b9b9;
+    color: #B91450;
+    padding: 6px 12px;
+    border: 1px solid #b9b9b9;
+    border-radius: 8px;
+}
+
+.btn-generate:hover {
+    background-color: #B91450;
+    border: 1px solid #B91450;
+    color: #fff;
+}
+
