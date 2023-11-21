@@ -39,3 +39,11 @@ input#name,#kilometers,#age {
     width: 70%;
 }
 
+.bg-grey {
+    background-color: grey;
+}
+
+.border-grey {
+    border: 2px solid grey;
+}
+
