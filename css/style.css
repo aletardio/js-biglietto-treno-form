@@ -36,5 +36,6 @@ body {
 
 input#name,#kilometers,#age {
     border: 1px solid #B91450;
+    width: 70%;
 }
 
