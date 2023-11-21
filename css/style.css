@@ -47,3 +47,10 @@ input#name,#kilometers,#age {
     border: 2px solid grey;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.height {
+    height: 150px;
+}

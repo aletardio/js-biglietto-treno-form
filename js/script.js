@@ -15,6 +15,7 @@ button.addEventListener('click', function(){
         price_final = price_start - sale;
         ticket_price = price_final.toFixed(2)+'€';
         document.getElementById('utente').innerText += name;
+        document.getElementById('prezzo').innerText += ticket_price;
         
     }
     else if (age == 'Max') {
@@ -23,12 +24,14 @@ button.addEventListener('click', function(){
         price_final = price_start - sale;
         ticket_price = price_final.toFixed(2)+'€';
         document.getElementById('utente').innerText += name;
+        document.getElementById('prezzo').innerText += ticket_price;
     }
     else {
         // Istruzioni per il calcolo del prezzo non scontato
         price_final = price_start;
         ticket_price = price_final.toFixed(2)+'€';
         document.getElementById('utente').innerText += name;
+        document.getElementById('prezzo').innerText += ticket_price;
     }
     console.log(ticket_price);
 })
